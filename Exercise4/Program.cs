@@ -78,6 +78,11 @@ namespace Exercise4
                 char ch = Convert.ToChar(sInput == "" ? "0" : sInput);
                 switch (ch)
                 {
+                    case '1':
+                        Console.Write("\nEnter a number: ");
+                        int num = Convert.ToInt32(Console.ReadLine());
+                        s.push(num);
+                        break;
 
                 }
             }
