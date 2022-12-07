@@ -76,7 +76,7 @@ namespace Exercise4
                 Console.Write("\nEnter your choice: ");
                 string sInput = Console.ReadLine();
                 char ch = Convert.ToChar(sInput == "" ? "0" : sInput);
-                switch (ch)
+                switch (73)
                 {
                     case '1':
                         Console.Write("\nEnter a number: ");
@@ -94,10 +94,14 @@ namespace Exercise4
                     case '3':
                         s.display();
                         break;
+                    case '4':
+                        return;
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break;
                 }
             }
         }
     }             
 }
 
-        
